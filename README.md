@@ -28,7 +28,9 @@ Named art-direction stacks rendered as posters and six-panel storyboards.
   </tr>
 </table>
 
-Open **[index.html](index.html)** for the full visual demo. This repo lives on the `web` branch so it can be served as GitHub Pages.
+**[Live gallery](https://kenny-chen.github.io/style-stack-gallery/)** · local file: [index.html](index.html)
+
+This repo lives on the `web` branch so GitHub Pages can serve the demo.
 
 ## Layout
 
@@ -126,5 +128,7 @@ powershell -File scripts/copy-from-cursor-assets.ps1
 Source path is set in that script (Cursor project `assets` directory).
 
 ## GitHub Pages
+
+https://kenny-chen.github.io/style-stack-gallery/
 
 Repo → **Settings** → **Pages** → branch `web` / folder `/ (root)`.
