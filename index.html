@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>style-stack-gallery</title>
+  <style>
+    :root {
+      --ink: #111;
+      --paper: #f4f1ea;
+      --gold: #b8952a;
+      --muted: #5c5a54;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    }
+    header {
+      padding: 3rem 6vw 1.5rem;
+      border-bottom: 1px solid var(--ink);
+    }
+    header p.kicker {
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      letter-spacing: 0.22em;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin: 0 0 0.75rem;
+    }
+    h1 {
+      font-weight: 400;
+      font-size: clamp(2.2rem, 6vw, 4.5rem);
+      letter-spacing: -0.04em;
+      line-height: 0.95;
+      margin: 0 0 1rem;
+    }
+    header .lede {
+      max-width: 38rem;
+      font-size: 1.05rem;
+      line-height: 1.45;
+      color: var(--muted);
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      padding: 0.9rem 6vw;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      border-bottom: 1px solid #d8d3c8;
+      position: sticky;
+      top: 0;
+      background: var(--paper);
+      z-index: 2;
+    }
+    nav a { color: var(--ink); text-decoration: none; }
+    nav a:hover { color: var(--gold); }
+    section { padding: 2.5rem 6vw 1rem; }
+    section h2 {
+      font-size: 0.75rem;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin: 0 0 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--ink);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.25rem 1rem;
+    }
+    .grid.wide {
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+    figure {
+      margin: 0;
+    }
+    figure a {
+      display: block;
+      background: #fff;
+      border: 1px solid #111;
+    }
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+    figcaption {
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      font-size: 0.72rem;
+      line-height: 1.35;
+      margin-top: 0.45rem;
+      color: var(--muted);
+    }
+    figcaption strong {
+      display: block;
+      color: var(--ink);
+      font-weight: 600;
+      margin-bottom: 0.15rem;
+    }
+    footer {
+      padding: 3rem 6vw;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--ink);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="kicker">Demo · 51 frames</p>
+    <h1>Style Stack<br>Gallery</h1>
+    <p class="lede">Single-style posters, stacked fusions, and six-panel editorial storyboards. Click any frame for the full PNG.</p>
+  </header>
+  <nav>
+    <a href="#posters">Posters</a>
+    <a href="#fusions">Fusions</a>
+    <a href="#storyboards">Storyboards</a>
+    <a href="README.md">Catalog</a>
+  </nav>
+
+  <section id="posters">
+    <h2>Posters — one style</h2>
+    <div class="grid">
+      <figure><a href="posters/neubrutalism.png"><img src="posters/neubrutalism.png" alt="Neubrutalism" loading="lazy"></a><figcaption><strong>Neubrutalism</strong> Hard offset shadow, pop cards</figcaption></figure>
+      <figure><a href="posters/brutalism.png"><img src="posters/brutalism.png" alt="Brutalism" loading="lazy"></a><figcaption><strong>Brutalism</strong> Raw concrete, anti-design</figcaption></figure>
+      <figure><a href="posters/photo-based-hero.png"><img src="posters/photo-based-hero.png" alt="Photo-Based Hero" loading="lazy"></a><figcaption><strong>Photo-Based Hero</strong> Full-bleed photograph</figcaption></figure>
+      <figure><a href="posters/skeuomorphism-hyperrealism.png"><img src="posters/skeuomorphism-hyperrealism.png" alt="Skeuomorphism" loading="lazy"></a><figcaption><strong>Skeuomorphism</strong> 3D hyperreal materials</figcaption></figure>
+      <figure><a href="posters/cyberpunk-tech-noir.png"><img src="posters/cyberpunk-tech-noir.png" alt="Cyberpunk Tech Noir" loading="lazy"></a><figcaption><strong>Cyberpunk &amp; Tech Noir</strong> Rain, neon, silhouette</figcaption></figure>
+      <figure><a href="posters/swiss-minimalism.png"><img src="posters/swiss-minimalism.png" alt="Swiss" loading="lazy"></a><figcaption><strong>Swiss / Minimalism</strong> Grid, Helvetica, red square</figcaption></figure>
+      <figure><a href="posters/exaggerated-minimalism.png"><img src="posters/exaggerated-minimalism.png" alt="Exaggerated minimalism" loading="lazy"></a><figcaption><strong>Exaggerated Minimalism</strong> Cropped giant type</figcaption></figure>
+      <figure><a href="posters/neumorphism.png"><img src="posters/neumorphism.png" alt="Neumorphism" loading="lazy"></a><figcaption><strong>Neumorphism</strong> Soft UI relief</figcaption></figure>
+      <figure><a href="posters/liquid-glass.png"><img src="posters/liquid-glass.png" alt="Liquid Glass" loading="lazy"></a><figcaption><strong>Liquid Glass</strong> Optical refraction slab</figcaption></figure>
+      <figure><a href="posters/y2k-aesthetic.png"><img src="posters/y2k-aesthetic.png" alt="Y2K" loading="lazy"></a><figcaption><strong>Y2K</strong> Chrome, pink, cyan</figcaption></figure>
+      <figure><a href="posters/memphis-design.png"><img src="posters/memphis-design.png" alt="Memphis" loading="lazy"></a><figcaption><strong>Memphis</strong> 80s geometry</figcaption></figure>
+      <figure><a href="posters/kinetic-typography.png"><img src="posters/kinetic-typography.png" alt="Kinetic type" loading="lazy"></a><figcaption><strong>Kinetic Typography</strong> Type in motion</figcaption></figure>
+      <figure><a href="posters/duotone-gradient-wash.png"><img src="posters/duotone-gradient-wash.png" alt="Duotone" loading="lazy"></a><figcaption><strong>Duotone / Gradient Wash</strong> Two-ink photograph</figcaption></figure>
+      <figure><a href="posters/digi-cute-kawaii.png"><img src="posters/digi-cute-kawaii.png" alt="Kawaii" loading="lazy"></a><figcaption><strong>Digi-Cute / Kawaii</strong> Pastel pixel-adjacent</figcaption></figure>
+      <figure><a href="posters/luxury-photo-hero.png"><img src="posters/luxury-photo-hero.png" alt="Luxury photo hero" loading="lazy"></a><figcaption><strong>Luxury × Photo Hero</strong> Thin serif, black gold</figcaption></figure>
+      <figure><a href="posters/luxury-bold-typography.png"><img src="posters/luxury-bold-typography.png" alt="Luxury bold type" loading="lazy"></a><figcaption><strong>Luxury × Bold Type</strong> Didot as architecture</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="fusions">
+    <h2>Fusions — stacked styles</h2>
+    <div class="grid">
+      <figure><a href="fusions/comic-bw-neubrutalism.png"><img src="fusions/comic-bw-neubrutalism.png" alt="Comic BW Neubrutalism" loading="lazy"></a><figcaption><strong>Comic × B&amp;W Neubrutalism</strong> Ink page, hard shadows</figcaption></figure>
+      <figure><a href="fusions/oil-photo-hero-brutalism.png"><img src="fusions/oil-photo-hero-brutalism.png" alt="Oil brutalism" loading="lazy"></a><figcaption><strong>Oil × Hero × Brutalism</strong> Impasto megastructure</figcaption></figure>
+      <figure><a href="fusions/ukiyo-e-collage.png"><img src="fusions/ukiyo-e-collage.png" alt="Ukiyo-e collage" loading="lazy"></a><figcaption><strong>Ukiyo-e × Collage</strong> Torn woodblock layers</figcaption></figure>
+      <figure><a href="fusions/oil-surrealism-cinematic.png"><img src="fusions/oil-surrealism-cinematic.png" alt="Oil surreal cinematic" loading="lazy"></a><figcaption><strong>Oil × Surreal × Cinema</strong> Dream physics, film light</figcaption></figure>
+      <figure><a href="fusions/anime-clay-neubrutalism.png"><img src="fusions/anime-clay-neubrutalism.png" alt="Anime clay neubrutalism" loading="lazy"></a><figcaption><strong>Anime × Clay × Neubrutalism</strong> Toy in brutalist frame</figcaption></figure>
+      <figure><a href="fusions/anime-clay-cyberpunk.png"><img src="fusions/anime-clay-cyberpunk.png" alt="Anime clay cyberpunk" loading="lazy"></a><figcaption><strong>Anime × Clay × Cyberpunk</strong> Matte clay, neon city</figcaption></figure>
+      <figure><a href="fusions/impressionism-luxury-photo-hero.png"><img src="fusions/impressionism-luxury-photo-hero.png" alt="Impressionism luxury" loading="lazy"></a><figcaption><strong>Impressionism × Luxury × Hero</strong> Broken stroke, Didot</figcaption></figure>
+      <figure><a href="fusions/kinetic-anime-duotone.png"><img src="fusions/kinetic-anime-duotone.png" alt="Kinetic anime duotone" loading="lazy"></a><figcaption><strong>Kinetic × Anime × Duotone</strong> Indigo / coral wash</figcaption></figure>
+      <figure><a href="fusions/kinetic-anime-photo-hero.png"><img src="fusions/kinetic-anime-photo-hero.png" alt="Kinetic anime photo" loading="lazy"></a><figcaption><strong>Kinetic × Anime × Photo Hero</strong> Live-action, exploding type</figcaption></figure>
+      <figure><a href="fusions/kinetic-anime-line-art.png"><img src="fusions/kinetic-anime-line-art.png" alt="Kinetic line art" loading="lazy"></a><figcaption><strong>Kinetic × Anime × 白描</strong> One ink weight</figcaption></figure>
+      <figure><a href="fusions/kinetic-anime-surrealism.png"><img src="fusions/kinetic-anime-surrealism.png" alt="Kinetic anime surreal" loading="lazy"></a><figcaption><strong>Kinetic × Anime × Surrealism</strong> Type as dream object</figcaption></figure>
+      <figure><a href="fusions/octane-luxury-photo-hero.png"><img src="fusions/octane-luxury-photo-hero.png" alt="Octane luxury" loading="lazy"></a><figcaption><strong>Octane × Luxury × Hero</strong> Caustics, marble, serif</figcaption></figure>
+      <figure><a href="fusions/napoleon-octane-luxury-hero.png"><img src="fusions/napoleon-octane-luxury-hero.png" alt="Napoleon octane" loading="lazy"></a><figcaption><strong>Napoléon × Octane × Luxury</strong> Imperial interior</figcaption></figure>
+      <figure><a href="fusions/jeanne-darc-octane-luxury-hero.png"><img src="fusions/jeanne-darc-octane-luxury-hero.png" alt="Joan of Arc octane" loading="lazy"></a><figcaption><strong>Jeanne d’Arc × Octane × Luxury</strong> Steel, silver-grey</figcaption></figure>
+      <figure><a href="fusions/jeanne-darc-kinetic-octane-luxury.png"><img src="fusions/jeanne-darc-kinetic-octane-luxury.png" alt="Joan kinetic" loading="lazy"></a><figcaption><strong>Jeanne profile × Kinetic × War</strong> Atmosphere, no gore</figcaption></figure>
+      <figure><a href="fusions/zhaojun-cinematic-editorial-spread.png"><img src="fusions/zhaojun-cinematic-editorial-spread.png" alt="Zhaojun spread" loading="lazy"></a><figcaption><strong>昭君出塞 × Cinema × Editorial</strong> Left still, right type</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="storyboards">
+    <h2>Storyboards — 3 and 6 panel</h2>
+    <div class="grid wide">
+      <figure><a href="storyboards/cinematic-lighting-6up.png"><img src="storyboards/cinematic-lighting-6up.png" alt="Cinematic 6up" loading="lazy"></a><figcaption><strong>Cinematic lighting</strong> Six film stills</figcaption></figure>
+      <figure><a href="storyboards/anime-4color-editorial-3row.png"><img src="storyboards/anime-4color-editorial-3row.png" alt="Anime 3row editorial" loading="lazy"></a><figcaption><strong>Anime 4-color editorial</strong> 3 row, left/right</figcaption></figure>
+      <figure><a href="storyboards/anime-4color-white-3row.png"><img src="storyboards/anime-4color-white-3row.png" alt="Anime 3row white" loading="lazy"></a><figcaption><strong>Anime 4-color white</strong> 3 row</figcaption></figure>
+      <figure><a href="storyboards/anime-4color-editorial-6panel.png"><img src="storyboards/anime-4color-editorial-6panel.png" alt="Anime 6 editorial" loading="lazy"></a><figcaption><strong>Anime 4-color editorial</strong> 6 panel</figcaption></figure>
+      <figure><a href="storyboards/anime-4color-white-6panel.png"><img src="storyboards/anime-4color-white-6panel.png" alt="Anime 6 white" loading="lazy"></a><figcaption><strong>Anime 4-color white</strong> 6 panel</figcaption></figure>
+      <figure><a href="storyboards/ancient-china-anime-4color-editorial-6panel.png"><img src="storyboards/ancient-china-anime-4color-editorial-6panel.png" alt="Ancient China 6" loading="lazy"></a><figcaption><strong>Ancient China</strong> Anime × editorial</figcaption></figure>
+      <figure><a href="storyboards/zhaojun-anime-4color-editorial-6panel.png"><img src="storyboards/zhaojun-anime-4color-editorial-6panel.png" alt="Zhaojun anime 6" loading="lazy"></a><figcaption><strong>昭君出塞</strong> Anime 4-color editorial</figcaption></figure>
+      <figure><a href="storyboards/zhaojun-cinematic-editorial-6panel.png"><img src="storyboards/zhaojun-cinematic-editorial-6panel.png" alt="Zhaojun cinema 6" loading="lazy"></a><figcaption><strong>昭君出塞</strong> Cinematic editorial</figcaption></figure>
+      <figure><a href="storyboards/crime-anime-4color-editorial-6panel.png"><img src="storyboards/crime-anime-4color-editorial-6panel.png" alt="Crime anime 6" loading="lazy"></a><figcaption><strong>刑偵劇</strong> Anime 4-color editorial</figcaption></figure>
+      <figure><a href="storyboards/crime-cinematic-editorial-6panel.png"><img src="storyboards/crime-cinematic-editorial-6panel.png" alt="Crime cinema 6" loading="lazy"></a><figcaption><strong>刑偵劇</strong> Cinematic editorial</figcaption></figure>
+      <figure><a href="storyboards/crime-oil-cinematic-editorial-6panel.png"><img src="storyboards/crime-oil-cinematic-editorial-6panel.png" alt="Crime oil 6" loading="lazy"></a><figcaption><strong>刑偵劇</strong> Oil × cinematic</figcaption></figure>
+      <figure><a href="storyboards/crime-oil-cinematic-editorial-6panel-v1.png"><img src="storyboards/crime-oil-cinematic-editorial-6panel-v1.png" alt="Crime oil v1" loading="lazy"></a><figcaption><strong>刑偵劇 oil</strong> Variant 1</figcaption></figure>
+      <figure><a href="storyboards/crime-oil-cinematic-editorial-6panel-v2.png"><img src="storyboards/crime-oil-cinematic-editorial-6panel-v2.png" alt="Crime oil v2" loading="lazy"></a><figcaption><strong>刑偵劇 oil</strong> Variant 2</figcaption></figure>
+      <figure><a href="storyboards/lenin-anime-4color-editorial-6panel.png"><img src="storyboards/lenin-anime-4color-editorial-6panel.png" alt="Lenin anime 6" loading="lazy"></a><figcaption><strong>沙俄 / Lenin</strong> Anime 4-color</figcaption></figure>
+      <figure><a href="storyboards/lenin-cinematic-editorial-6panel.png"><img src="storyboards/lenin-cinematic-editorial-6panel.png" alt="Lenin cinema 6" loading="lazy"></a><figcaption><strong>沙俄 / Lenin</strong> Cinematic editorial</figcaption></figure>
+      <figure><a href="storyboards/napoleon-anime-4color-editorial-6panel.png"><img src="storyboards/napoleon-anime-4color-editorial-6panel.png" alt="Napoleon anime 6" loading="lazy"></a><figcaption><strong>Napoléon</strong> Anime 4-color editorial</figcaption></figure>
+      <figure><a href="storyboards/jeanne-darc-octane-luxury-cinematic-6panel.png"><img src="storyboards/jeanne-darc-octane-luxury-cinematic-6panel.png" alt="Jeanne octane 6" loading="lazy"></a><figcaption><strong>Jeanne d’Arc</strong> Octane × luxury cinema</figcaption></figure>
+      <figure><a href="storyboards/jeanne-darc-comic-4color-luxury-6panel.png"><img src="storyboards/jeanne-darc-comic-4color-luxury-6panel.png" alt="Jeanne comic 6" loading="lazy"></a><figcaption><strong>Jeanne d’Arc</strong> Comic × 4-color luxury</figcaption></figure>
+      <figure><a href="storyboards/jeanne-darc-anime-4color-luxury-6panel.png"><img src="storyboards/jeanne-darc-anime-4color-luxury-6panel.png" alt="Jeanne anime 6" loading="lazy"></a><figcaption><strong>Jeanne d’Arc</strong> Anime × 4-color luxury</figcaption></figure>
+    </div>
+  </section>
+
+  <footer>
+    style-stack-gallery · branch <code>web</code> · enable GitHub Pages on this branch to host the demo.
+  </footer>
+</body>
+</html>

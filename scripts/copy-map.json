@@ -1,0 +1,53 @@
+{
+  "posters": {
+    "neubrutalism_poster.png": "posters/neubrutalism.png",
+    "brutalism_poster.png": "posters/brutalism.png",
+    "photo_based_hero_poster.png": "posters/photo-based-hero.png",
+    "skeuomorphism_hyperrealism_poster.png": "posters/skeuomorphism-hyperrealism.png",
+    "cyberpunk_tech_noir_poster.png": "posters/cyberpunk-tech-noir.png",
+    "poster_swiss_minimalism.png": "posters/swiss-minimalism.png",
+    "poster_exaggerated_minimalism.png": "posters/exaggerated-minimalism.png",
+    "poster_neumorphism.png": "posters/neumorphism.png",
+    "poster_liquid_glass.png": "posters/liquid-glass.png",
+    "poster_y2k_aesthetic.png": "posters/y2k-aesthetic.png",
+    "poster_memphis_design.png": "posters/memphis-design.png",
+    "poster_kinetic_typography.png": "posters/kinetic-typography.png",
+    "poster_duotone_gradient.png": "posters/duotone-gradient-wash.png",
+    "poster_digi_cute_kawaii.png": "posters/digi-cute-kawaii.png",
+    "poster_luxury_premium_photo_hero.png": "posters/luxury-photo-hero.png",
+    "poster_luxury_bold_typography.png": "posters/luxury-bold-typography.png"
+  },
+  "fusions": {
+    "comic_bw_neubrutalism_page.png": "fusions/comic-bw-neubrutalism.png",
+    "poster_oil_hero_brutalism.png": "fusions/oil-photo-hero-brutalism.png",
+    "poster_ukiyo_e_collage.png": "fusions/ukiyo-e-collage.png",
+    "poster_oil_surreal_cinematic.png": "fusions/oil-surrealism-cinematic.png",
+    "poster_anime_clay_neubrutalism.png": "fusions/anime-clay-neubrutalism.png",
+    "poster_anime_clay_cyberpunk_tech_noir.png": "fusions/anime-clay-cyberpunk.png",
+    "poster_impressionism_luxury_photo_hero.png": "fusions/impressionism-luxury-photo-hero.png",
+    "poster_kinetic_anime_duotone.png": "fusions/kinetic-anime-duotone.png",
+    "poster_kinetic_anime_photo_hero.png": "fusions/kinetic-anime-photo-hero.png",
+    "poster_kinetic_anime_line_art.png": "fusions/kinetic-anime-line-art.png",
+    "poster_kinetic_anime_surrealism.png": "fusions/kinetic-anime-surrealism.png",
+    "poster_octane_luxury_photo_hero.png": "fusions/octane-luxury-photo-hero.png",
+    "poster_napoleon_octane_luxury_photo_hero.png": "fusions/napoleon-octane-luxury-hero.png",
+    "poster_jeanne_darc_kinetic_octane_luxury_hero.png": "fusions/jeanne-darc-kinetic-octane-luxury.png",
+    "poster_joan_of_arc_octane_luxury_photo_hero.png": "fusions/jeanne-darc-octane-luxury-hero.png",
+    "editorial_cinematic_zhaojun_chusei.png": "fusions/zhaojun-cinematic-editorial-spread.png"
+  },
+  "storyboards_ascii": {
+    "storyboard_cinematic_lighting.png": "storyboards/cinematic-lighting-6up.png",
+    "storyboard_anime_4color_editorial.png": "storyboards/anime-4color-editorial-3row.png",
+    "storyboard_anime_4color_lineart_white.png": "storyboards/anime-4color-white-3row.png",
+    "storyboard_6panel_anime_4color_editorial.png": "storyboards/anime-4color-editorial-6panel.png",
+    "storyboard_6panel_anime_4color_white.png": "storyboards/anime-4color-white-6panel.png",
+    "storyboard_6panel_ancient_china_anime_editorial.png": "storyboards/ancient-china-anime-4color-editorial-6panel.png",
+    "storyboard_6panel_cinematic_zhaojun_editorial.png": "storyboards/zhaojun-cinematic-editorial-6panel.png",
+    "storyboard_6panel_cinematic_lenin_editorial.png": "storyboards/lenin-cinematic-editorial-6panel.png",
+    "storyboard_6panel_cinematic_crime_editorial.png": "storyboards/crime-cinematic-editorial-6panel.png",
+    "storyboard_6panel_crime_oil_cinematic_editorial.png": "storyboards/crime-oil-cinematic-editorial-6panel.png",
+    "storyboard_6panel_jeanne_darc_octane_luxury_cinematic.png": "storyboards/jeanne-darc-octane-luxury-cinematic-6panel.png",
+    "storyboard_6panel_jeanne_comic_4color_luxury_editorial.png": "storyboards/jeanne-darc-comic-4color-luxury-6panel.png",
+    "storyboard_6panel_jeanne_anime_4color_luxury_editorial.png": "storyboards/jeanne-darc-anime-4color-luxury-6panel.png"
+  }
+}
