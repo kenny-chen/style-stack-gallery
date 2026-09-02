@@ -1,15 +1,15 @@
 # style-stack-gallery
 
-Named art-direction stacks rendered as posters and six-panel storyboards.
+Named art-direction stacks rendered as posters, six-panel storyboards, and magazine covers.
 
 <table>
   <tr>
     <td align="center" valign="top" width="33%">
-      <a href="storyboards/zhaojun-anime-4color-editorial-6panel.png">
-        <img src="storyboards/zhaojun-anime-4color-editorial-6panel.png" alt="Zhaojun, anime 4-color editorial six-panel" width="100%" />
+      <a href="magazine/issue-01-desk-at-dusk.png">
+        <img src="magazine/issue-01-desk-at-dusk.png" alt="HK Trading Intelligence issue 01, desk at dusk" width="100%" />
       </a>
       <br />
-      <sub>昭君出塞 · Anime × 4-color × Editorial</sub>
+      <sub>HK Trading Intelligence · Issue 01</sub>
     </td>
     <td align="center" valign="top" width="33%">
       <a href="fusions/octane-luxury-photo-hero.png">
@@ -38,6 +38,7 @@ This repo lives on the `web` branch so GitHub Pages can serve the demo.
 posters/       single-style posters
 fusions/       two or more styles stacked
 storyboards/   3-row and 6-panel boards (left image / right editorial)
+magazine/      covers and editorial layouts
 scripts/       recopy from the local Cursor assets folder
 ```
 
@@ -116,6 +117,19 @@ Conflicts are resolved on purpose (for example: kinetic type vs. quiet luxury se
 | <a href="storyboards/jeanne-darc-anime-4color-luxury-6panel.png"><img src="storyboards/jeanne-darc-anime-4color-luxury-6panel.png" alt="" width="56" /></a> | [jeanne-darc-anime-4color-luxury-6panel.png](storyboards/jeanne-darc-anime-4color-luxury-6panel.png) | Jeanne d’Arc × Anime × 4-Color × Luxury × Editorial |
 
 War and crime boards are **atmosphere only** (smoke, tape, distant figures). No gore.
+
+## Magazine
+
+| Preview | File | Stack |
+|:-------:|------|--------|
+| <a href="magazine/01-sima-yi-cover.png"><img src="magazine/01-sima-yi-cover.png" alt="" width="56" /></a> | [01-sima-yi-cover.png](magazine/01-sima-yi-cover.png) | Forbes cover × 司馬懿 |
+| <a href="magazine/02-wu-zetian-cover.png"><img src="magazine/02-wu-zetian-cover.png" alt="" width="56" /></a> | [02-wu-zetian-cover.png](magazine/02-wu-zetian-cover.png) | Forbes cover × 武則天 |
+| <a href="magazine/issue-01-desk-at-dusk.png"><img src="magazine/issue-01-desk-at-dusk.png" alt="" width="56" /></a> | [issue-01-desk-at-dusk.png](magazine/issue-01-desk-at-dusk.png) | HK Trading Intelligence · Issue 01 |
+| <a href="magazine/issue-02-arrival-helicopter.png"><img src="magazine/issue-02-arrival-helicopter.png" alt="" width="56" /></a> | [issue-02-arrival-helicopter.png](magazine/issue-02-arrival-helicopter.png) | HK Trading Intelligence · Issue 02 |
+| <a href="magazine/issue-03-private-briefing.png"><img src="magazine/issue-03-private-briefing.png" alt="" width="56" /></a> | [issue-03-private-briefing.png](magazine/issue-03-private-briefing.png) | HK Trading Intelligence · Issue 03 |
+| <a href="magazine/layout-option-a-v4-full-article.png"><img src="magazine/layout-option-a-v4-full-article.png" alt="" width="56" /></a> | [layout-option-a-v4-full-article.png](magazine/layout-option-a-v4-full-article.png) | 前沿宏觀 editorial + luxury ad |
+
+The recopy script does not include `magazine/` yet. Drop new covers into that folder by hand.
 
 ## Recopy from Cursor
 

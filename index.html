@@ -112,18 +112,21 @@
       color: var(--muted);
       border-top: 1px solid var(--ink);
     }
+    footer a { color: var(--ink); }
+    footer a:hover { color: var(--gold); }
   </style>
 </head>
 <body>
   <header>
-    <p class="kicker">Demo · 51 frames</p>
+    <p class="kicker">Demo · 57 frames</p>
     <h1>Style Stack<br>Gallery</h1>
-    <p class="lede">Single-style posters, stacked fusions, and six-panel editorial storyboards. Click any frame for the full PNG.</p>
+    <p class="lede">Single-style posters, stacked fusions, six-panel editorial storyboards, and magazine covers. Click any frame for the full PNG.</p>
   </header>
   <nav>
     <a href="#posters">Posters</a>
     <a href="#fusions">Fusions</a>
     <a href="#storyboards">Storyboards</a>
+    <a href="#magazine">Magazine</a>
     <a href="README.md">Catalog</a>
   </nav>
 
@@ -196,8 +199,20 @@
     </div>
   </section>
 
+  <section id="magazine">
+    <h2>Magazine — covers and editorial</h2>
+    <div class="grid wide">
+      <figure><a href="magazine/01-sima-yi-cover.png"><img src="magazine/01-sima-yi-cover.png" alt="Forbes-style cover, Sima Yi" loading="lazy"></a><figcaption><strong>Forbes cover × 司馬懿</strong> Cover portrait, masthead</figcaption></figure>
+      <figure><a href="magazine/02-wu-zetian-cover.png"><img src="magazine/02-wu-zetian-cover.png" alt="Forbes-style cover, Wu Zetian" loading="lazy"></a><figcaption><strong>Forbes cover × 武則天</strong> Cover portrait, masthead</figcaption></figure>
+      <figure><a href="magazine/issue-01-desk-at-dusk.png"><img src="magazine/issue-01-desk-at-dusk.png" alt="HK Trading Intelligence issue 01, desk at dusk" loading="lazy"></a><figcaption><strong>Issue 01 · Desk at dusk</strong> HK Trading Intelligence</figcaption></figure>
+      <figure><a href="magazine/issue-02-arrival-helicopter.png"><img src="magazine/issue-02-arrival-helicopter.png" alt="HK Trading Intelligence issue 02, helicopter arrival" loading="lazy"></a><figcaption><strong>Issue 02 · Arrival helicopter</strong> HK Trading Intelligence</figcaption></figure>
+      <figure><a href="magazine/issue-03-private-briefing.png"><img src="magazine/issue-03-private-briefing.png" alt="HK Trading Intelligence issue 03, private briefing" loading="lazy"></a><figcaption><strong>Issue 03 · Private briefing</strong> HK Trading Intelligence</figcaption></figure>
+      <figure><a href="magazine/layout-option-a-v4-full-article.png"><img src="magazine/layout-option-a-v4-full-article.png" alt="Frontier Macro editorial spread with luxury ad" loading="lazy"></a><figcaption><strong>前沿宏觀 editorial</strong> Opinion spread + luxury ad</figcaption></figure>
+    </div>
+  </section>
+
   <footer>
-    style-stack-gallery · branch <code>web</code> · enable GitHub Pages on this branch to host the demo.
+    style-stack-gallery · branch <code>web</code> · <a href="https://kenny-chen.github.io/style-stack-gallery/">live gallery</a>
   </footer>
 </body>
 </html>
